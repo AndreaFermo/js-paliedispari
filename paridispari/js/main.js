@@ -1,18 +1,18 @@
-const sceltaPariDispari = prompt('scegli pari o dispari')
-console.log(sceltaPariDispari)
+const sceltaPariDispari = prompt('scegli pari o dispari');
+console.log(sceltaPariDispari);
 const numeroUtente = parseInt(prompt('inserisci un numero da 1 a 5'));
-console.log(numeroUtente)
+console.log(numeroUtente);
 
-let numeroConfronto = random ()
+let numeroConfronto = random ();
 console.log(numeroConfronto);
 
-let pariDispari = sommaPariDispari (numeroUtente, numeroConfronto)
-console.log(pariDispari)
+let pariDispari = sommaPariDispari (numeroUtente, numeroConfronto);
+console.log(pariDispari);
 
 if (pariDispari == sceltaPariDispari) {
-    console.log('hai vinto')
+    console.log('hai vinto');
 } else {
-    console.log('hai perso')
+    console.log('hai perso');
 }
 
 function random () {
@@ -30,5 +30,5 @@ function sommaPariDispari (a, b) {
         risultato = 'pari';
     }
 
-    return risultato
+    return risultato;
 }
