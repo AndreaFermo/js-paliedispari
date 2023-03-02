@@ -1,8 +1,8 @@
 const parola = prompt('inserisci una parola');
 console.log(parola);
 
-let palindromia = invertiParola()
-console.log(palindromia)
+let palindromia = invertiParola();
+console.log(palindromia);
 
 
 function invertiParola() {
@@ -24,7 +24,5 @@ if (parolaInvertita == parola) {
 }
 
 return risultato;
-
-
     
 }
